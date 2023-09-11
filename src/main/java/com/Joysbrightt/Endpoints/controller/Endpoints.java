@@ -42,7 +42,7 @@ if (currentInstant.isBefore(twoMinutesAgo) || currentInstant.isAfter(twoMinutesL
             responseMap.put("currentDay", currentDay);
             responseMap.put("utc_time", utcTime.toString());
             responseMap.put("track", track);
-            responseMap.put("github_file_url", "https://github.com/Joysbrightt/Endpoints");
+            responseMap.put("github_file_url", "https://github.com/Joysbrightt/Endpoints/blob/main/src/main/java/com/Joysbrightt/Endpoints/EndpointsApplication.java ");
             responseMap.put("github_repo_url", "https://github.com/Joysbrightt/Endpoints");
             responseMap.put("status_code", 200);
 
